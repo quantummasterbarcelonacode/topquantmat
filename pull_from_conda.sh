@@ -18,7 +18,7 @@ fi
 echo "conda is installed"
 export PYTHONPATH=$PYTHONPATH:"${LATEST_PYTHON_PATH}/site-packages"
 
-conda install -y -c conda-forge kwant&>log 
+#conda install -y -c conda-forge kwant&>log 
 conda install -y -c conda-forge qsymm&>log
 conda install -y -c conda-forge sympy&>log
 
