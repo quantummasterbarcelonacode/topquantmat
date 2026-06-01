@@ -1,6 +1,6 @@
 import sys
 sys.path.append("/content/conda_dir")
-import kwant
+#import kwant
 import qsymm
 import sympy as sp
 import numpy as np
