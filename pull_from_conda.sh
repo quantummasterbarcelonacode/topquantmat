@@ -21,6 +21,8 @@ export PYTHONPATH=$PYTHONPATH:"${LATEST_PYTHON_PATH}/site-packages"
 #conda install -y -c conda-forge kwant&>log 
 conda install -y -c conda-forge qsymm&>log
 conda install -y -c conda-forge sympy&>log
+conda install -y -c conda-forge tinyarray&>log
+conda install -y -c conda-forge ipympl &>log
 
 #Add a path to the content
 rm -Rf /content/conda_dir
